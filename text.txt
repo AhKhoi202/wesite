@@ -1,0 +1,4 @@
+document.querySelectorAll('#android > section.well > div.heading > h3 > span').forEach(e => console.log(e.innerText))
+
+document.querySelectorAll('#android > section:nth-child(2) > div.row > div > img').forEach(e => console.log(e.currentSrc
+))

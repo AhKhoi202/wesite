@@ -43,6 +43,7 @@ section .feature .img-mobile {
 }
 .img-circle {
     border-radius: 50%;
+    margin-right: 20px;
 }
 
 
@@ -85,7 +86,7 @@ a{
     
 }
  p{
-    padding: 10px 20px;
+    padding: 10px 0;
     margin-bottom: 10px;
 }
  li.android {
@@ -101,5 +102,7 @@ li.web {
     background-color: #4FC7FF ;
 }
 
-
+.feature:active {
+    background-color: #7BE891;
+} 
 
